@@ -1,5 +1,8 @@
 # SDN Broadcast Traffic Control using Mininet & POX
 
+## Name: Nishit DB
+## SRN: PES1UG24CS303
+
 ## Problem Statement
 Broadcast traffic in networks can cause congestion and inefficiency.
 This project implements an SDN-based solution to control excessive broadcast traffic using Mininet and the POX controller.
@@ -143,6 +146,3 @@ Selective broadcast filtering reduces unnecessary traffic while preserving essen
 - OpenFlow Specification
 
 ------------------------------------------------------------
-
-## Author
-Your Name

@@ -56,20 +56,20 @@ Run:
 pingall
 
 Screenshot:
-screenshots/baseline_ping.png
+![image](screenshots/baseline_ping.png)
 
 Check flow rules:
 sudo ovs-ofctl dump-flows s1
 
 Screenshot:
-screenshots/baseline_flows.png
+![image](screenshots/baseline_flows.png)
 
 Run iperf:
 h2 iperf -s &
 h1 iperf -c h2
 
 Screenshot:
-screenshots/baseline_iperf.png
+![image](screenshots/baseline_iperf.png)
 
 ------------------------------------------------------------
 
@@ -79,32 +79,32 @@ Run:
 pingall
 
 Screenshot:
-screenshots/controlled_ping.png
+![image](screenshots/controlled_ping.png)
 
 Controller logs (example):
 Blocking broadcast from 00:00:00:00:00:01
 
 Screenshot:
-screenshots/controller_logs.png
+![image](screenshots/controller_logs.png)
 
 Check flow rules:
 sudo ovs-ofctl dump-flows s1
 
 Screenshot:
-screenshots/controlled_flows.png
+![image](screenshots/controlled_flows.png)
 
 Run iperf:
 h2 iperf -s &
 h1 iperf -c h2
 
 Screenshot:
-screenshots/controlled_iperf.png
+![image](screenshots/controlled_iperf.png)
 
 ARP Table Check:
 h1 arp -n
 
 Screenshot:
-screenshots/arp_table.png
+![image](screenshots/arp_table.png)
 
 ------------------------------------------------------------
 

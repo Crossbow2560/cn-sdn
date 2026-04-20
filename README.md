@@ -1,7 +1,7 @@
 # SDN Broadcast Traffic Control using Mininet & POX
 
-## Name: Nishit DB
-## SRN: PES1UG24CS303
+### Name: Nishit DB
+### SRN: PES1UG24CS303
 
 ## Problem Statement
 Broadcast traffic in networks can cause congestion and inefficiency.

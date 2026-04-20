@@ -100,6 +100,12 @@ h1 iperf -c h2
 Screenshot:
 screenshots/controlled_iperf.png
 
+ARP Table Check:
+h1 arp -n
+
+Screenshot:
+screenshots/arp_table.png
+
 ------------------------------------------------------------
 
 ## Observations
